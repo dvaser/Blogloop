@@ -1,0 +1,189 @@
+@charset "utf-8";
+@import url(still.css);
+
+/*! Header */
+#banner{
+    width: 1297px;
+    height: 200px;
+}
+
+/*! Nav */
+#supMenu{
+    width: 1297px;
+    height: 90px;
+    position:relative;
+    top:5px;
+}
+
+/*! Article */
+#contentMenu{
+    float:left;
+    position: relative;
+    top:11px;
+    width: 1041px;
+    height: 1104px;
+}
+#contentMenu table{
+    width: 1040px;
+    height: 1004px;
+    table-layout: fixed;
+}
+
+/*? Yazarlarin kutucuk, fotograf ve isim ayarlamasi */
+.author{
+    width: 250px;
+    height: 345px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*? Bloglarin kutucuk, fotograf, renk ve isim ayarlamasi */
+.blog{
+    width: 300px;
+    height: 305px;
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.blog figure{
+    float: left;
+    position: relative;
+}
+.blog #text{
+    overflow: hidden;
+    padding-left: 20px;
+    position: relative;
+}
+.buttonNext{
+    float:left;
+    position: relative;
+    top: 150px;
+    right: 50px;
+}
+.blog input[type="button"]{
+    color: black;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #c4dfa9;
+    border-style: solid;
+    border-color: #11011f;
+    width: 150px;
+    border-width: 3px;
+    border-radius: 20px;
+    position: relative;
+    left: 70px;
+}
+.blog a:link, .blog a:hover, .blog a:focus, .blog a:active, .blog a:visited{
+    color: black;
+}
+.blog input[type="button"]:hover{
+    background-color: lightsalmon;
+    border-style: dotted;
+    border-color: sw;
+    font-size:17px;
+}
+
+/*? Formlarin kutucuk ayarlamasi */
+#contactForm{
+    position: relative;
+    top:50px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #1e0231 #150050 #3F0071 #610094;
+    border-radius: 50px;
+    margin: auto;
+    text-align: left;
+    max-width: 600px;
+    max-height: 1000px;
+    padding: 10px;
+}
+#form{
+    max-width: 500px;
+    max-height: 20px;
+    margin:auto;
+}
+
+/*? Yönetici İşlemleri */
+#managers{
+    float:left;
+    position: relative;
+    top: 130px;
+}
+#contact #managers ul li{
+    float:left;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin:5px;
+    width: 1000px;
+    height: 300px;
+}
+#contact #managers ul li .imgManager{
+    width: 200px;
+    height: 280px;
+    padding: 10px;
+    text-align: center;
+}
+#contact #managers ul li .contactManager{
+    text-align: left;
+    width: 350px;
+    height: 100px;
+    float: left;
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+}
+#contact #managers ul{
+    list-style-type: none;
+}
+.contactManager table{
+    max-width: 595px;
+    max-height: 200px;
+    text-align:left;
+}
+.contactIcon{
+    float:left;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+/*! Aside */
+#sideMenu{
+    width: 250px;
+    height: 1104px;
+    float: right;
+    position: relative;
+    top: 11px;
+    right: 3px;
+}
+
+/*? Reklamlar */
+#sideMenu #ad{
+    width: 246px;
+    height: 1100px;
+    text-align: center;
+}
+#sideMenu #ad .ads{
+    position: relative;
+    top: 20px;
+    left: 2px;
+    margin: 15px;
+    display: inline-block;
+    width: 200px;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
+/*! Footer */
+#subMenu{
+    width: 1297px;
+    height: 90px;
+    position: relative;
+    top: 1120px;
+    text-align: center;
+}

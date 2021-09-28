@@ -1,0 +1,267 @@
+
+/*? Tum elementler */
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+/*? Sayfa Yapisi */
+#page{
+    border-width: 10px;
+    background-color: rgb(218, 214, 210);
+    width: 1300px;
+    height: 1500px;
+    border-style: groove;
+    margin: auto;
+    padding:5px;
+    position: relative;
+    top:10px;
+}
+
+/*? Paragraf Metni */
+p{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-align: left;
+    padding: 10px;
+    color: black;
+    text-indent: 40px;
+}
+
+/*? H etiketleri */
+h1,h2,h3,h4,h5,h6{
+    color: black;
+}
+
+/*? Border-radius ayari */
+#banner, #supMenu, #contentMenu, #sideMenu, #subMenu{
+    border-radius: 5px;
+}
+
+/*? Liste Madde Imi */
+#subMenu ul, #supMenu ul, #sideMenu ul{
+    list-style-type: none;
+    position: absolute;
+}
+
+/*? Icon Yapisi */
+#icon{
+    border-radius: 18px;
+    float:right;
+    margin-right: 5px;
+}
+
+/*! Header */
+#banner{
+    background-image: url(Media/backgrounds/background-img-9.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 2300px;
+}
+
+/*? Logo Kutucugu */
+#logo{
+    padding:20px;
+}
+#writeLogo{
+    padding: 20;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+}
+
+/*! Nav */
+#supMenu{
+    background-color: #170055e5;
+}
+
+/*? Nav Menu Liste Kutucugu */
+#supMenu #menuBar li{
+    background-color: snow;
+    padding: 10px;
+    width: 130px;
+    height: 20px;
+    border-style: solid;
+    border-width: 5px;
+    float: left;
+    margin-left: 70px;
+    position: relative;
+    top: 18px;
+    left: 145px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 5px 5px 10px 5px rgb(6, 138, 138);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*? Nav Link Renklendirme */
+#supMenu a:link, #supMenu a:visited{
+    color:#BD2000;
+    font-weight: bolder;
+    font-size: 17px;
+}
+#supMenu a:active{
+    color: black;
+}
+#supMenu a:hover{
+    color: #262A53;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+/*! Article */
+#contentMenu{
+    background-color: #d7dfaae5;
+}
+
+/*? Sayfa Numarasi */
+#contentMenu #pageNum{
+    list-style-type: none;
+    position: relative;
+    left: 270px;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+#contentMenu #pageNum li{
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+#contentMenu #pageNum li a:hover{
+    position: relative;
+    bottom: 10px;
+}
+
+/*! Aside */
+#sideMenu{
+    /* background-image: url(Media/backgrounds/background-img-2.jpg);
+    background-position: right bottom;
+    background-size: 5000px;
+    background-repeat: no-repeat; */
+    background-color: #0d2c27;
+    border-radius: 5px;
+}
+
+/*? Aside Menu Liste Kutucugu */
+#sideMenu #menuBar li{
+    background-color:wheat;
+    padding: 10px;
+    margin-top: 50px;
+    width: 130px;
+    height: 20px;
+    border-style: double;
+    border-width: 5px;
+    margin-top: 70px;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 47px;
+    text-align: center;
+    border-radius: 2px;
+    border-color: black;
+    box-shadow: 5px 5px 10px 5px darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*? Aside Link Renklendirme */
+#sideMenu a:link, #sideMenu a:visited{
+    color:darkviolet;
+    font-weight: bolder;
+    font-size: 17px;
+}
+#sideMenu a:active{
+    color: black;
+}
+#sideMenu a:hover{
+    color:black;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+/*! Footer */
+#subMenu{
+    background-image: url(Media/backgrounds/background-img-2.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+/*? Footer Menu Liste Kutucugu */
+#subMenu #menuBar{
+    width: 1295px;
+    text-align: center;
+}
+#subMenu #menuBar li{
+    padding: 20px;
+    display: inline-block;
+}
+
+/*? Tum Haklari Saklidir */
+#reserved{
+    font-size:15px;
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    left: 525px;
+    color: whitesmoke;
+}
+
+/*? Footer Liste Renklendirme */
+#subMenu a:link, #subMenu a:visited{
+    color:darkorange;
+    font-weight: bolder;
+}
+#subMenu a:active{
+    color:black;
+}
+#subMenu a:hover{
+    color:black;
+    text-decoration: overline underline;
+}
+
+/*? Dark-Light Tema */
+:root {
+    --lightButtonSize: 50px;
+    --darkButtonSize: 45px; /* degisken tanimlama*/
+}
+body {
+    margin: 0px;
+    background-color: #eee;
+    background: url("Media/backgrounds/light.png");
+}
+#buttonContainer {
+    width: calc(var(--lightButtonSize)*3); /*calculator*/
+    position: relative;
+    left: 1140px;
+    top: 130px;
+}
+.lightDarkButton {
+    position: relative;
+    border-radius: 200px;
+    top: 2px;
+    box-shadow: 0px 0px 0px 0px black;
+    width: var(--lightButtonSize);
+    height: var(--lightButtonSize);
+    display: inline-block;
+}
+#lightButton {
+    width: var(--lightButtonSize);
+}
+#darkButton {
+    top: 0px;
+    left: 0px;
+    width: var(--darkButtonSize);
+    height: var(--darkButtonSize);
+    position: relative;
+    top: 2px;
+    z-index: 1;
+    opacity: 0; /*seffaf goruntu */
+    transition: opacity 0.7s, left 0.7s;  /* 0.7 sn de opacity uygula, 0.7 sn boyunca sola doğru kay*/
+}

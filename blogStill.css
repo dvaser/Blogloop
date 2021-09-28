@@ -1,0 +1,127 @@
+@charset "utf-8";
+@import url(still.css);
+
+/*! Header */
+#banner{
+    width: 1297px;
+    height: 100px;
+}
+
+#buttonContainer {
+    position: relative;
+    left: 1140px;
+    top: 30px;
+}
+
+/*! Article */
+#contentMenu{
+    float:left;
+    position: relative;
+    top:11px;
+    width: 1035px;
+    height: 1285px;
+    text-align: center;
+}
+
+/*? Article Blogger Kutucugu*/
+#contentMenu #bloggerMenu{
+    width: 1035px;
+    height: 1104px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+#contentMenu #blogger{
+    position: relative;
+    top: 50px;
+    width: 1000px;
+    height: 115px;
+    display: inline-block;
+}
+#contentMenu #blogger table{
+    text-align: center;
+    display: inline-block;
+}
+#contentMenu #blogger table td{
+    padding: 20px;
+}
+
+/*! Aside */
+#sideMenu{
+    width: 250px;
+    height: 1290px;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 2px;
+}
+
+/*? Paylaş Butonu */
+#sideMenu #shareBox{
+    background-color: #359b77;
+    border-color: #0d2c27;
+    border-style: solid;
+    border-width: 3px;
+    float: right;
+    max-width: 60px;
+    max-height: 50px;
+    overflow: hidden;
+    -webkit-transition: width 1s ease;
+    -moz-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    transition: max-width 1s ease;
+    border-radius: 500px;
+    padding: 5px;
+    position: relative;
+    top: 1125px;
+    right: 200px;
+}
+#sideMenu #shareBox #share{
+    margin-right: 10px;
+}
+#sideMenu #shareBox #icon{
+    margin-top: 15px;
+    float: right;
+    position: relative;
+    bottom: 10px;
+}
+#sideMenu #shareBox:hover{
+    border-style: dotted;
+    border-color: #0d2c27;
+    border-width: 3px;
+    background-color: snow;
+    max-width: 300px;
+    width: 300px;
+}
+#sideMenu #shareBox figure a:hover{
+    position: relative;
+    bottom: 5px;
+}
+
+/*? Aside Back-Next Liste Kutucugu */
+#sideMenu #backNext li{
+    margin: 10px;
+    height:35px;
+    width: 35px;
+    float:left;
+    position:relative;
+    top: 1200px;
+    left: 70px;
+}
+#sideMenu #backNext li a img[alt="next"]:hover{
+    position: relative;
+    left: 10px;
+}
+#sideMenu #backNext li a img[alt="back"]:hover{
+    position: relative;
+    right: 10px;
+}
+
+/*! Footer */
+#subMenu{
+    width: 1297px;
+    height: 90px;
+    position: relative;
+    top: 1309px;
+    text-align: center;
+}

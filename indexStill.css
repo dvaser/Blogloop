@@ -1,0 +1,91 @@
+@charset "utf-8";
+@import url(still.css);
+
+/*! Header */
+#banner{
+    width: 1297px;
+    height: 200px;
+}
+
+/*! Nav */
+#supMenu{
+    width: 1297px;
+    height: 90px;
+    position:relative;
+    top:5px;
+}
+
+/*! Article */
+#contentMenu{
+    float:left;
+    position: relative;
+    top:11px;
+    width: 1297px;
+    height: 1104px;
+}
+#contentMenu table{
+    border-width: 2px;
+    border-color: black;
+    width: 1297px;
+    height: 1104px;
+    table-layout: fixed;
+    
+}
+
+/*? Bloglarin kutucuk, fotograf, renk ve isim ayarlamasi */
+.blog{
+    width: 300px;
+    height: 305px;
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.blog figure{
+    float: left;
+    position: relative;
+}
+.blog #text{
+    overflow: hidden;
+    padding-left: 20px;
+    position: relative;
+}
+.buttonNext{
+    float:left;
+    position: relative;
+    top: 150px;
+    right: 50px;
+}
+.blog input[type="button"]{
+    color: black;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #c4dfa9;
+    border-style: solid;
+    border-color: #11011f;
+    width: 150px;
+    border-width: 3px;
+    border-radius: 20px;
+    position: relative;
+    left: 70px;
+}
+.blog a:link, .blog a:hover, .blog a:focus, .blog a:active, .blog a:visited{
+    color: black;
+}
+.blog input[type="button"]:hover{
+    background-color: lightsalmon;
+    border-style: dotted;
+    border-color: sw;
+    font-size:17px;
+}
+
+/*! Footer */
+#subMenu{
+    width: 1297px;
+    height: 90px;
+    position: relative;
+    top: 1120px;
+    text-align: center;
+}
